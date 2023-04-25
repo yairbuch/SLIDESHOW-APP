@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+main {
+  min-height: 87vh;
+}
+
+.slide-show-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+@media (min-width: 770px) {
+  #box1 {
+    display: flex;
+
+  }
+
+  #box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+}
+
+.picEX {
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picEx img {
+  max-width: 44%;
+  display: inline-block;
+}
