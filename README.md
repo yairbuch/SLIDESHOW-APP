@@ -1,2 +1,2 @@
-# W081222MR-SLIDESHOW-APP
+# SLIDESHOW-APP
  a javascript vanila html & bootstrap project
